@@ -1,0 +1,29 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "description": "* 先挖坑 * 再填坑 * 然后完成发布",
+  "main": "app.js",
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skidxjq/node-blog.git"
+  },
+  "keywords": [
+    "hehe"
+  ],
+  "author": "skidxjq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skidxjq/node-blog/issues"
+  },
+  "homepage": "https://github.com/skidxjq/node-blog",
+  "devDependencies": {
+    "ejs": "^2.3.2",
+    "express": "^4.13.1",
+    "http": "0.0.0",
+    "mongoose": "^4.0.6",
+    "path": "^0.11.14"
+  }
+}

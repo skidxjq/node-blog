@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'fs', '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 warn package.json http@0.0.0 http is also the name of a node core module.
+5 warn package.json http@0.0.0 No description
+6 warn package.json http@0.0.0 No repository field.
+7 warn package.json path@0.11.14 path is also the name of a node core module.
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'fs', null ]
+10 verbose cache add name=undefined spec="fs" args=["fs",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'fs',
+11 verbose parsed url   path: 'fs',
+11 verbose parsed url   href: 'fs' }
+12 silly lockFile 3f4bb586-fs fs
+13 verbose lock fs /Users/mac/.npm/3f4bb586-fs.lock
+14 silly lockFile 3f4bb586-fs fs
+15 silly lockFile 3f4bb586-fs fs
+16 verbose addNamed [ 'fs', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile a107b96b-fs fs@
+19 verbose lock fs@ /Users/mac/.npm/a107b96b-fs.lock
+20 silly addNameRange { name: 'fs', range: '*', hasData: false }
+21 verbose request where is /fs
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id d8b12d82b1eabc47
+24 verbose url raw /fs
+25 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+26 verbose url resolved https://registry.npmjs.org/fs
+27 verbose request where is https://registry.npmjs.org/fs
+28 info trying registry request attempt 1 at 17:08:28
+29 http GET https://registry.npmjs.org/fs
+30 http 200 https://registry.npmjs.org/fs
+31 silly registry.get cb [ 200,
+31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     etag: '"F2L002R52XS7VH8F6XXLGIJ5X"',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     'content-length': '1577',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Sun, 19 Jul 2015 09:08:30 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1437296910.405259,VS0,VE159',
+31 silly registry.get     vary: 'Accept' } ]
+32 silly addNameRange number 2 { name: 'fs', range: '*', hasData: true }
+33 silly addNameRange versions [ 'fs', [ '0.0.0', '0.0.2' ] ]
+34 verbose addNamed [ 'fs', '0.0.2' ]
+35 verbose addNamed [ '0.0.2', '0.0.2' ]
+36 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+37 verbose lock fs@0.0.2 /Users/mac/.npm/afea0479-fs-0-0-2.lock
+38 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+39 verbose lock https://registry.npmjs.org/fs/-/fs-0.0.2.tgz /Users/mac/.npm/f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz.lock
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/fs/-/fs-0.0.2.tgz',
+40 verbose addRemoteTarball   'e1f244ef3933c1b2a64bd4799136060d0f5914f8' ]
+41 info retry fetch attempt 1 at 17:08:30
+42 verbose fetch to= /var/folders/q7/gm48tyl97xl5xpg1gsns4x740000gn/T/npm-22889-i9lIYOO3/registry.npmjs.org/fs/-/fs-0.0.2.tgz
+43 http GET https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+44 http 200 https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+45 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+46 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+47 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+48 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+49 silly lockFile a107b96b-fs fs@
+50 silly lockFile a107b96b-fs fs@
+51 silly resolved [ { name: 'fs',
+51 silly resolved     version: '0.0.2',
+51 silly resolved     description: '',
+51 silly resolved     main: 'index.js',
+51 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+51 silly resolved     author: '',
+51 silly resolved     license: 'MIT',
+51 silly resolved     _id: 'fs@0.0.2',
+51 silly resolved     _shasum: 'e1f244ef3933c1b2a64bd4799136060d0f5914f8',
+51 silly resolved     _from: 'fs@',
+51 silly resolved     _npmVersion: '1.4.14',
+51 silly resolved     _npmUser: { name: 'alsotang', email: 'alsotang@gmail.com' },
+51 silly resolved     maintainers: [ [Object] ],
+51 silly resolved     dist:
+51 silly resolved      { shasum: 'e1f244ef3933c1b2a64bd4799136060d0f5914f8',
+51 silly resolved        tarball: 'http://registry.npmjs.org/fs/-/fs-0.0.2.tgz' },
+51 silly resolved     directories: {},
+51 silly resolved     _resolved: 'https://registry.npmjs.org/fs/-/fs-0.0.2.tgz' } ]
+52 info install fs@0.0.2 into /Users/mac/skidxjq/银行信贷/bankloan/node-blog
+53 info installOne fs@0.0.2
+54 verbose node_modules/fs unbuild
+55 verbose tar unpack /Users/mac/.npm/fs/0.0.2/package.tgz
+56 silly lockFile 8a8c5a0b-nkloan-node-blog-node-modules-fs tar:///Users/mac/skidxjq/银行信贷/bankloan/node-blog/node_modules/fs
+57 verbose lock tar:///Users/mac/skidxjq/银行信贷/bankloan/node-blog/node_modules/fs /Users/mac/.npm/8a8c5a0b-nkloan-node-blog-node-modules-fs.lock
+58 silly lockFile d7cde0a4-ers-mac-npm-fs-0-0-2-package-tgz tar:///Users/mac/.npm/fs/0.0.2/package.tgz
+59 verbose lock tar:///Users/mac/.npm/fs/0.0.2/package.tgz /Users/mac/.npm/d7cde0a4-ers-mac-npm-fs-0-0-2-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry index.js
+63 silly lockFile 8a8c5a0b-nkloan-node-blog-node-modules-fs tar:///Users/mac/skidxjq/银行信贷/bankloan/node-blog/node_modules/fs
+64 silly lockFile 8a8c5a0b-nkloan-node-blog-node-modules-fs tar:///Users/mac/skidxjq/银行信贷/bankloan/node-blog/node_modules/fs
+65 silly lockFile d7cde0a4-ers-mac-npm-fs-0-0-2-package-tgz tar:///Users/mac/.npm/fs/0.0.2/package.tgz
+66 silly lockFile d7cde0a4-ers-mac-npm-fs-0-0-2-package-tgz tar:///Users/mac/.npm/fs/0.0.2/package.tgz
+67 info preinstall fs@0.0.2
+68 verbose readDependencies using package.json deps
+69 verbose readDependencies using package.json deps
+70 silly resolved []
+71 verbose about to build /Users/mac/skidxjq/银行信贷/bankloan/node-blog/node_modules/fs
+72 info build /Users/mac/skidxjq/银行信贷/bankloan/node-blog/node_modules/fs
+73 verbose linkStuff [ false,
+73 verbose linkStuff   false,
+73 verbose linkStuff   false,
+73 verbose linkStuff   '/Users/mac/skidxjq/银行信贷/bankloan/node-blog/node_modules' ]
+74 info linkStuff fs@0.0.2
+75 verbose linkBins fs@0.0.2
+76 verbose linkMans fs@0.0.2
+77 verbose rebuildBundles fs@0.0.2
+78 info install fs@0.0.2
+79 info postinstall fs@0.0.2
+80 verbose saving { fs: '0.0.2' }
+81 error Error: EACCES, open '/Users/mac/skidxjq/银行信贷/bankloan/node-blog/package.json'
+81 error  { [Error: EACCES, open '/Users/mac/skidxjq/银行信贷/bankloan/node-blog/package.json']
+81 error   errno: 3,
+81 error   code: 'EACCES',
+81 error   path: '/Users/mac/skidxjq/银行信贷/bankloan/node-blog/package.json' }
+82 error Please try running this command again as root/Administrator.
+83 error System Darwin 13.4.0
+84 error command "node" "/usr/local/bin/npm" "install" "fs" "--save-dev"
+85 error cwd /Users/mac/skidxjq/银行信贷/bankloan/node-blog
+86 error node -v v0.10.34
+87 error npm -v 1.4.28
+88 error path /Users/mac/skidxjq/银行信贷/bankloan/node-blog/package.json
+89 error code EACCES
+90 error errno 3
+91 error stack Error: EACCES, open '/Users/mac/skidxjq/银行信贷/bankloan/node-blog/package.json'
+92 verbose exit [ 3, true ]
